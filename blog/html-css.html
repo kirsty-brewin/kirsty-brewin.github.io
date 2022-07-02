@@ -5,23 +5,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-  <link rel="index" href="Index.html">
+  
  
 
   <title>Tech</title>
 </head>
 
 <body>
+
   <header>
     <style>
-      header {
+  
+ 
+ header {
   text-align: left; 
 }
 
 h1 {
   display: inline-block;
   margin-top: 2em;
-  margin-left: 2em;
+  margin-left: 6em;
   font-family: Roboto;
   font-size: 40px;
   
@@ -45,7 +48,7 @@ body {
   margin-top: 50px;
   border-radius: 5%;
   
-         }
+   }
  
 nav {
   display: inline-block;
@@ -56,7 +59,9 @@ nav {
      
 }
 
-a:hover { text-decoration: none; }
+a:hover { text-decoration: none; 
+
+}
 
 .intro {
   font-family: Roboto;
@@ -79,28 +84,114 @@ a:hover { text-decoration: none; }
 background-color: white;
 font-family: Roboto;
 font-size: 20px;
-margin-left: 600px;
+margin-left: 580px;
 margin-top: 20px;
-height: 700px;
+height:180px;
 max-width: 720px;
 text-align:left;
 overflow-wrap: break-word;
-border-radius: 5%;
+
 padding-left: 1%;
 padding-right: 1%;
 padding-top: 0.1%;
+border: solid black;
 
 }
 
 .margin-pic {
   background-color: white;
   width:43%;
-  margin-left: 600px;
-  margin-bottom: 500px;
+  margin-left: 720px;
+  margin-top: 20px;
   border-radius: 5%;
+  width: 25%;
+  border: solid black ;
+  
+}
+
+li {
+  display:inline;
+  text-decoration: coral;
+  padding: 3%;
+  align-items: center;
+  color: #e9775d;
+}
+
+.box-pic {
+  width:55%;
+  margin-left: 710px;
+  margin-top: 20px;
+  border-radius: 5%;
+  width: 25%;
+  border: solid black ;
+}
+
+.padding {
+background-color: white;
+font-family: Roboto;
+font-size: 20px;
+margin-left: 580px;
+margin-top: 20px;
+height:180px;
+max-width: 720px;
+text-align:left;
+overflow-wrap: break-word;
+
+padding-left: 1%;
+padding-right: 1%;
+padding-top: 0.1%;
+border: solid black;
+}
+
+.padding-pic {
+  background-color: white;
+  width:43%;
+  margin-left: 720px;
+  margin-top: 20px;
+  border-radius: 5%;
+  width: 25%;
+  border: solid black ;
+}
+
+.border  {
+  background-color: white;
+font-family: Roboto;
+font-size: 20px;
+margin-left: 580px;
+margin-top: 20px;
+height:150px;
+max-width: 720px;
+text-align:left;
+overflow-wrap: break-word;
+
+padding-left: 1%;
+padding-right: 1%;
+padding-top: 0.1%;
+border: solid black;
+}
+
+.border-pic-1 {
+  background-color: white;
+  width:43%;
+  margin-left: 720px;
+  margin-top: 20px;
+  border-radius: 5%;
+  width: 25%;
+  border: solid black ;
+}
+
+.border-pic-2 {
+  background-color: white;
+  width:45%;
+  margin-left: 720px;
+  margin-top: 20px;
+  border-radius: 5%;
+  width: 25%;
+  border: solid black ;
 }
 
       </style>
+
 
     <h1>Tech</h1>
     <nav>
@@ -112,29 +203,63 @@ padding-top: 0.1%;
   
   <h2>Box Model Basics</h2>
 
-  <div class="intro">
-   <p>The box model is a CSS concept which allows the browser to view all created content is contained within a box. Each box has three main properties, they are:
-   </p>
-  </div>
+  <img src="/Images/Box model 1.jpg" class="box-pic"">
 
-    <h3 style="font-family: Roboto; font-size: 30px; text-align: center;">Margin</h3>
+  <div class="intro">
+   <p>The box model is a CSS concept which allows the browser to view all created content within a box. Each box has three main properties, they are:
+   </p>
+
+    </div>
+
+    
+    <h3 style="font-family: Roboto; font-size: 30px; text-align: center; margin-top: 70px ">Margin</h3>
 
     <div class="margin">
     <p> 
       The margin is the space outside of the border of an element, and is between other elements. It is usually displayed as orange in colour when you inspect an html page.
-      Margin properties are: 
+      You can manipulate the size of your margins by inserting the properties: 
 
-  
-  <li> margin-left</li>
+
+  <li> margin-left</li> 
   <li> margin-right</li>
   <li> margin-top</li>
   <li> margin-bottom</li>
-
+ </u>
     </p>
   </div>
 
 <img src="/Images/Margin 5.jpg" class="margin-pic">
 
-</body>
+<h3 style="font-family: Roboto; font-size: 30px; text-align: center; margin-top: 70px;">Padding</h3>
+
+<div class="padding">
+  <p> Padding is the space between the content box and the border of an element. It is usually displayed as a green colour when you inspect an html page. You can manipulate the size of your margins by inserting the properties:  
+
+  <li> padding-left</li> 
+  <li> padding-right</li>
+  <li> padding-top</li>
+  <li> padding-bottom</li>
+ </u>
+    </p>
+  </div>
+
+  <img src="/Images/Padding 4.jpg" class="padding-pic">
+ 
+  <h3 style="font-family: Roboto; font-size: 30px; text-align: center; margin-top: 70px ">Border</h3>
+
+  <div class="border">
+  <p> 
+    The border is the space outside of the border of an element, and is between other elements. It is usually displayed as orange in colour when you inspect an html page.
+    You can manipulate the size of your margins by inserting the properties: 
+  </p>
+</div>
+
+<div>
+<img src="/Images/Border 1.jpg" class="border-pic-1">
+<img src="/Images/Border 2.jpg" class="border-pic-2">
+</div>
+
+ </body>
+
 
 </html>
