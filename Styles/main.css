@@ -1,0 +1,104 @@
+
+ 
+header {
+ text-align: left; 
+}
+
+h1 {
+ display: inline-block;
+ margin-top: 2em;
+ margin-left: 6em;
+ font-family: Roboto;
+ font-size: 40px;
+ 
+}
+
+h2 {
+ font-family: Roboto;
+ text-align: center;
+ font-size: 40px;
+}
+
+body {
+ background-color:#e9775d;
+ margin-left: 20px;
+}
+
+
+nav {
+ display: inline-block;
+ margin-left: 600px;
+ font-family: Roboto;
+ font-size: 25px;
+ word-spacing: 10px;
+    
+}
+
+ 
+.who {
+ font-family: Roboto;
+ font-size: 20px;
+ margin-left: 550px;
+ margin-top: -350px;
+ height: 80px;
+ max-width: 750px ;
+ text-align: left;
+ overflow-wrap: break-word;
+ 
+ 
+}
+
+.child-img {
+ width:10%;
+ align-items: center;
+ margin-left:300px ;
+ margin-top: 10px;
+ border-radius: 5%;
+ border: solid black ;
+}
+
+.identity {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-left: 550px;
+  margin-top:30px;
+  height: 80px;
+  max-width: 750px ;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+
+.strengths  {
+font-family: Roboto;
+font-size: 20px;
+margin-left: 550px;
+margin-top: 20px;
+height:150px;
+max-width: 750px;
+text-align:left;
+overflow-wrap: break-word;
+padding-bottom: 5%;
+
+}
+
+
+.bloglinks {
+  background-color: white;
+  font-family: Roboto;
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+  margin-left: 580px;
+  margin-top: 20px;
+  height:100px;
+  max-width: 720px;
+  text-align:center;
+  
+  
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.1%;
+  border: solid black;
+  
+  }
