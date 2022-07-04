@@ -4,16 +4,17 @@ header {
  text-align: left; 
 }
 
-h1 {
- display: inline-block;
- margin-top: 2em;
- margin-left: 6em;
- font-family: Roboto;
- font-size: 40px;
- 
-}
 
-h2 {
+        
+.coretitle {
+  margin-top: 3em;
+  margin-left: 200px;
+  font-family: Roboto;
+  font-size: 40px;
+        
+      }
+
+h1 {
  font-family: Roboto;
  text-align: center;
  font-size: 40px;
@@ -25,24 +26,28 @@ body {
 }
 
 
-nav {
- display: inline-block;
- margin-left: 600px;
+.navClass {
+  display: inline-block;
+  margin-left: 1000px;
+  margin-top: 5%;
  font-family: Roboto;
- font-size: 25px;
- word-spacing: 10px;
+  font-size: 25px;
+  word-spacing: 10px;
+  text-decoration: none;
+  
+            
+  }
     
-}
 
  
 .who {
  font-family: Roboto;
  font-size: 20px;
  margin-left: 550px;
- margin-top: -350px;
+ margin-top: -310px;
  height: 80px;
- max-width: 750px ;
- text-align: left;
+ max-width: 600px ;
+ text-align: justify;
  overflow-wrap: break-word;
  
  
@@ -61,10 +66,10 @@ nav {
   font-family: Roboto;
   font-size: 20px;
   margin-left: 550px;
-  margin-top:30px;
+  margin-top:-30px;
   height: 80px;
-  max-width: 750px ;
-  text-align: left;
+  max-width: 600px ;
+  text-align: justify;
   overflow-wrap: break-word;
 }
 
@@ -73,12 +78,12 @@ nav {
 font-family: Roboto;
 font-size: 20px;
 margin-left: 550px;
-margin-top: 20px;
+margin-top: -20px;
 height:150px;
-max-width: 750px;
-text-align:left;
+max-width: 600px;
+text-align:justify;
 overflow-wrap: break-word;
-padding-bottom: 5%;
+
 
 }
 
@@ -86,13 +91,13 @@ padding-bottom: 5%;
 .bloglinks {
   background-color: white;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 30px;
   color: black;
   text-decoration: none;
-  margin-left: 580px;
+  margin-left: 600px;
   margin-top: 20px;
-  height:100px;
-  max-width: 720px;
+  height:60px;
+  max-width: 400px;
   text-align:center;
   
   
@@ -102,3 +107,83 @@ padding-bottom: 5%;
   border: solid black;
   
   }
+
+  .learning1 {
+font-family: Roboto;
+ font-size: 20px;
+ margin-left: 550px;
+ margin-top: -310px;
+ height: 80px;
+ max-width: 600px ;
+ text-align: left;
+ overflow-wrap: break-word;
+  }
+
+.careergoals {
+font-family: Roboto;
+font-size: 20px;
+margin-left: 550px;
+margin-top: -20px;
+height:150px;
+max-width: 600px;
+text-align:left;
+overflow-wrap: break-word;
+text-align: justify;
+padding-bottom: 5%;
+}
+
+.limitations {
+font-family: Roboto;
+font-size: 20px;
+margin-left: 550px;
+margin-top: -20px;
+height:150px;
+max-width: 600px;
+text-align:left;
+overflow-wrap: break-word;
+text-align: justify;
+padding-bottom: 5%;
+
+}
+
+
+.core {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-left: 550px;
+  margin-top: -20px;
+  height:150px;
+  max-width: 600px;
+  text-align:left;
+  overflow-wrap: break-word;
+  text-align: justify;
+  padding-bottom: 5%;
+}
+
+.workload {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-left: 550px;
+  margin-top: -20px;
+  height:150px;
+  max-width: 600px;
+  text-align:left;
+  overflow-wrap: break-word;
+  text-align: justify;
+  padding-bottom: 5%;
+
+}
+
+.expectations {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-left: 550px;
+  margin-top: -20px;
+  height:150px;
+  max-width: 600px;
+  text-align:left;
+  overflow-wrap: break-word;
+  text-align: justify;
+  padding-bottom: 5%;
+
+}
