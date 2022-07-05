@@ -348,15 +348,15 @@ padding-bottom: 5%;
 
 
 @media (max-width: 320px) {
-  .kirsty-brewin {margin-left: 80px; margin-top: 80px;}
+  .kirsty-brewin {margin-left: -20px; margin-top: 80px;}
 }
 
 @media (max-width: 320px) {
-  .navClass {margin-left: 120px; margin-top: 80px;}
+  .navClass {margin-left: 70px; margin-top: 80px;}
 }
 
 @media (max-width: 320px) {
-.journey {margin-left: 120px; margin-top:-25px;}
+.journey {margin-left: 30px; margin-top:-25px;}
 }
 
 @media (max-width: 320px) {
@@ -364,45 +364,45 @@ padding-bottom: 5%;
 }
 
 @media (max-width: 320px) {
-  #spiders {margin-left: 120px; font-size: 20px;}
+  #spiders {margin-left: 80px; font-size: 15px;}
 }
 
 @media (max-width: 768px) {
-  .kirsty-brewin {margin-left: -30px; margin-top: 80px;}
+  .kirsty-brewin {margin-left: -90px; margin-top: 30px;}
+}
+@media (max-width: 768px) {
+  .navClass {margin-left: 260px; margin-top: 80px;}
 }
 
 @media (max-width: 768px) {
-  .navClass {margin-left: 280px; margin-top: 80px;}
-}
+  .journey {margin-left: 180px; margin-top:-25px;}
+  }
+  
+  @media (max-width: 768px) {
+  .codeimage {margin-left: 200px;}
+  }
+  
+  @media (max-width: 768px) {
+    #spiders {margin-left: 230px;}
+  }
 
-@media (max-width: 768px) {
-.journey {margin-left: 200px; margin-top:-25px;}
-}
-
-@media (max-width: 768px) {
-.codeimage {display: none;}
-}
-
-@media (max-width: 768px) {
-  #spiders {margin-left: 240px; font-size: 20px;}
-}
-
-@media (max-width: 1250px) {
-  .kirsty-brewin {margin-left: -700px; margin-top: 10px;}
-}
-
-@media (max-width: 1250px) {
-  .navClass {margin-left: 880px; margin-top: 80px;}
-}
-
-@media (max-width: 1250px) {
-.journey {margin-left: 150px; margin-top:-25px;}
-}
-
-@media (max-width: 1250px) {
-.codeimage {margin-left: 200px ;}
-}
-
-@media (max-width: 1250px) {
-  #spiders {margin-left: 710px; margin-top: -200px; font-size: 20px;}
-}
+  @media (max-width: 1200px) {
+    .kirsty-brewin {margin-left: -700px; margin-top: 10px;}
+  }
+  
+  @media (max-width: 1200px) {
+    .navClass {margin-left: 880px; margin-top:;}
+  }
+  
+  @media (max-width: 1200px) {
+  .journey {margin-left: 115px; margin-top:;}
+  }
+  
+  @media (max-width: 1200px) {
+  .codeimage {margin-left: 400px ;}
+  }
+  
+  @media (max-width: 1200px) { 
+      #spiders {margin-left: 430px;} 
+    }
+  
