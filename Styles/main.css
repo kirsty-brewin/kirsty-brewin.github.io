@@ -1,58 +1,83 @@
 
  /* Extra small devices (phones, 600px and down) */
+#container {
+width: 90%;
+height: 500%;
+margin: 0 auto;
+border: 5px;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
 
-.kirsty-brewin {
+}
+
+ .kirsty-brewin {
   float: none;
   margin-top: 30px;
-  margin-left: -180px;
+  text-align: center;
   font-family: Roboto;
   font-size: 40px;
       }   
 
 
 .navClass {
-  float: none;
   display: inline-block;
-  margin-left: 1000px;
   margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Roboto;
   font-size: 25px;
   word-spacing: 10px;
   text-decoration: none;
+  align-items:center ;
         
                   
         }
 .journey {
   float: none;
   font-family: Roboto;
-  margin-left: 590px;
-  margin-top: -1%;
+  text-align: center;
+  margin-top: -30px ;
       }       
       
 .codeimage {
-  width:30%;
-  float: left;
-  margin-left: 500px;
-  margin-top: 40px;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 5%;
-                  }
+  display: flex;
+  height: auto;
+  }
+
    #spiders{
-  font-size: 25px;
-  width: 30%;
-  text-align:center;
-  margin-left: 500px;
-  margin-top: 100px;
-  font-family: Roboto;
-  font-style: italic;
+    float: none;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 25px;
+    width:auto ;
 
     }
 
-      
+   .margin {
+margin-top: -5%;
+
+   }
+
+   .padding {
+margin-top: 5%;
+
+   }
+
+  .border {
+    margin-top: 5%;
+  }
+   
 .coretitle {
   margin-top: 3em;
-  margin-left: 200px;
   font-family: Roboto;
   font-size: 40px;
+  text-align: center;
         
       }
 
@@ -63,176 +88,72 @@ h1 {
  margin-top: 100px;
 }
 
+h3 {
+font-family: Roboto; 
+font-size: 30px;
+text-align: center;
+margin-top: 30px 
+}
+
 body {
  background-color:#e9775d;
  margin-left: 20px;
 }
 
-.margin-pic {
- width:500%;
- height: 500%;
- margin-left: 500px;
- margin-top: 50px;
- border-radius: 5%;
-  
-   }
-
-.box-intro {
-  font-family: Roboto;
-    font-size: 20px;
-    margin-left: 480px;
-    margin-top: 20px;
-    height:150px;
-    max-width: 720px;
-    text-align:left;
-    overflow-wrap: break-word;
     
-    
-  }
-
-.margin {
+  p {
   font-family: Roboto;
   font-size: 20px;
-  margin-left: 480px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
   height:150px;
-  max-width: 720px;
+  width: 50%;
   text-align:left;
   overflow-wrap: break-word;
+
   
-    
-    }
+} 
 
 
-.margin-pic {
+.boxpics {
   background-color: white;
-  width:30%;
-  margin-left: 580px;
-  margin-top: 20px;
-  border-radius: 5%;
-  border: solid black ;
+      width:30%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5px;
+      border-radius: 5%;
+      border: solid black ;
+      display: flex;
+      height: auto;
       
     }
     
-li {
-  display:inline;
-  text-decoration: coral;
-  padding: 3%;
-  align-items: center;
-  color: white;
-    }
-    
-.box-pic {
-  width:30%;
-  margin-left: 580px;
-  margin-top: 20px;
-  border-radius: 5%;
-  border: solid black ;
-    }
-    
-.padding {
-  font-family: Roboto;
-  font-size: 20px;
-  margin-left: 480px;
-  margin-top: 20px;
-  height:150px;
-  max-width: 720px;
-  text-align:left;
-  overflow-wrap: break-word;
-  
-    
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    
-    }
-    
-    .padding-pic {
-      background-color: white;
-      width:30%;
-      margin-left: 580px;
-      margin-top: 20px;
-      border-radius: 5%;
-      border: solid black ;
-    }
-    
-    .border  {
-    font-family: Roboto;
-    font-size: 20px;
-    margin-left: 480px;
-    margin-top: 20px;
-    height:150px;
-    max-width: 720px;
-    text-align:left;
-    overflow-wrap: break-word;
-    
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 0.1%;
-    }
-    
-    .border-pic-1 {
-      background-color: white;
-      width:30%;
-      margin-left: 580px;
-      margin-top: 20px;
-      border-radius: 5%;
-      border: solid black ;
-    }
-    
-    .border-pic-2 {
-      background-color: white;
-      width:30%;
-      margin-left: 580px;
-      margin-top: 20px;
-      border-radius: 5%;
-      border: solid black ;
-    }
- 
-  .who {
-    font-family: Roboto;
-    font-size: 20px;
-    margin-left: 550px;
-    margin-top:-300px;
-    height: 80px;
-    max-width: 600px ;
-    text-align: justify;
-    overflow-wrap: break-word;
- 
- 
-}
 
 .child-img {
- width:10%;
- align-items: center;
- margin-left:300px ;
- margin-top: 10px;
- border-radius: 5%;
- border: solid black ;
+  width:30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  display: flex;
+  height: auto;
+}
+
+.who {
+margin-left: auto;
+margin-right: auto;
+margin-top: -10px;
+
 }
 
 .identity {
-  font-family: Roboto;
-  font-size: 20px;
-  margin-left: 550px;
-  margin-top:-30px;
-  height: 80px;
-  max-width: 600px ;
-  text-align: justify;
-  overflow-wrap: break-word;
+margin-top:70px;
+margin-left: auto;
+margin-right: auto;
 }
 
-
-.strengths  {
-font-family: Roboto;
-font-size: 20px;
-margin-left: 550px;
-margin-top: -20px;
-height:150px;
-max-width: 600px;
-text-align:justify;
-overflow-wrap: break-word;
-
+.webdev{
+margin-top: 380px;
 
 }
 
@@ -242,14 +163,11 @@ overflow-wrap: break-word;
   font-family: Roboto;
   font-size: 30px;
   color: black;
+  width: auto;
   text-decoration: none;
-  margin-left: 600px;
   margin-top: 20px;
   height:60px;
-  max-width: 400px;
-  text-align:center;
-  
-  
+  text-align:center;  
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 0.1%;
@@ -337,118 +255,12 @@ padding-bottom: 5%;
 
 }
 
-.emotional {
-font-family: Roboto;
-font-size: 20px;
-margin-left: 550px;
-margin-top: 40px;
-height: 80px;
-max-width: 600px ;
-text-align: justify;
-overflow-wrap: break-word;
+
+
   
-}
-
-.JavaIntro {
-   font-family: Roboto;
-    font-size: 20px;
-    margin-left: 480px;
-    margin-top: 20px;
-    height:150px;
-    max-width: 720px;
-    text-align:left;
-    overflow-wrap: break-word;
-  }
-
-  .ControlLoop {
-    font-family: Roboto;
-    font-size: 20px;
-    margin-left: 480px;
-    margin-top: 20px;
-    height:150px;
-    max-width: 720px;
-    text-align:left;
-    overflow-wrap: break-word;
-  }
-
-  .JavaIntro {
-    font-family: Roboto;
-     font-size: 20px;
-     margin-left: 480px;
-     margin-top: 20px;
-     height:150px;
-     max-width: 720px;
-     text-align:left;
-     overflow-wrap: break-word;
-   }
  
 
-  .arraysObjs {
-    font-family: Roboto;
-    font-size: 20px;
-   margin-top: 20px;
-    height:150px;
-    max-width: 720px;
-    text-align:left;
-    overflow-wrap: break-word;
-  }
-
-@media (max-width: 320px) {
-  .kirsty-brewin {margin-left: -20px; margin-top: 80px;}
-}
-
-@media (max-width: 320px) {
-  .navClass {margin-left: 70px; margin-top: 80px;}
-}
-
-@media (max-width: 320px) {
-.journey {margin-left: 30px; margin-top:-25px;}
-}
-
-@media (max-width: 320px) {
-.codeimage {display: none;}
-}
-
-@media (max-width: 320px) {
-  #spiders {margin-left: 80px; font-size: 15px;}
-}
-
-@media (max-width: 768px) {
-  .kirsty-brewin {margin-left: -90px; margin-top: 30px;}
-}
-@media (max-width: 768px) {
-  .navClass {margin-left: 260px; margin-top: 80px;}
-}
-
-@media (max-width: 768px) {
-  .journey {margin-left: 180px; margin-top:-25px;}
-  }
   
-  @media (max-width: 768px) {
-  .codeimage {margin-left: 200px;}
-  }
-  
-  @media (max-width: 768px) {
-    #spiders {margin-left: 230px;}
-  }
 
-  @media (max-width: 1200px) {
-    .kirsty-brewin {margin-left: -700px; margin-top: 10px;}
-  }
-  
-  @media (max-width: 1200px) {
-    .navClass {margin-left: 880px; margin-top:;}
-  }
-  
-  @media (max-width: 1200px) {
-  .journey {margin-left: 115px; margin-top:;}
-  }
-  
-  @media (max-width: 1200px) {
-  .codeimage {margin-left: 400px ;}
-  }
-  
-  @media (max-width: 1200px) { 
-      #spiders {margin-left: 430px;} 
-    }
+
   
