@@ -2,7 +2,6 @@
  /* Extra small devices (phones, 600px and down) */
 #container {
 width: 90%;
-height: 500%;
 margin: 0 auto;
 border: 5px;
 flex-direction: row;
@@ -29,9 +28,9 @@ align-items: flex-start;
   font-size: 25px;
   word-spacing: 10px;
   text-decoration: none;
-  align-items:center ;
+  
         
-                  
+                 
         }
 .journey {
   float: none;
@@ -60,7 +59,7 @@ align-items: flex-start;
     }
 
    .margin {
-margin-top: -5%;
+margin-top: 4%;
 
    }
 
@@ -106,7 +105,6 @@ body {
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
-  height:150px;
   width: 50%;
   text-align:left;
   overflow-wrap: break-word;
@@ -130,7 +128,7 @@ body {
     
 
 .child-img {
-  width:%;
+  width:20%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
@@ -152,18 +150,28 @@ margin-right: auto;
 }
 
 .webdev{
-margin-top: 330px;
+margin-top: 60px;
 
 }
 
+.back {
+  font-family: Roboto;
+  margin-left: 700px; 
+  margin-right:auto;
+  margin-top: 30px;
+  font-size: 20px;
+  color:blueviolet; 
+  text-decoration: none;
+
+}
 
 .bloglinks {
-  background-color: white;
-  font-family: Roboto;
-  font-size: 30px;
   color: black;
-  width: auto;
-  text-decoration: none;
+  font-family: Roboto;
+  font-size: 2vw;
+  width: 70%;
+  margin-left:auto;
+  margin-right: auto;
   margin-top: 20px;
   height:60px;
   text-align:center;  
@@ -255,20 +263,22 @@ padding-bottom: 5%;
 }
 
 .flowlist {
-font-family: Roboto;
-font-size: 20px;
-margin-top: -7%;
-margin-left: 400px;
-
+  font-family: Roboto;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align:left;
+  overflow-wrap: break-word;
 }
 
   
  .DOM {
-  margin-top: -2%;
+  margin-top: 5%;
  }
 
   .array {
-margin-top: 6%;
+   margin-top: 5%;
   }
 
   .arrandobs{
@@ -276,4 +286,26 @@ margin-top: 6%;
     
   }
 
-  
+  @media (min-width:1200px){
+    .bloglinks {
+      font-size: 2vw 
+    }
+  }
+
+  @media (max-width: 1199px){
+    .bloglinks {
+    font-size: 5vw
+    }
+  }
+
+@media (min-width:1200px){
+  .p {
+    font-size: 2vw
+  }
+}
+
+@media (max-width:1199px){
+  .p {
+    font-size:2vw
+  }
+}
