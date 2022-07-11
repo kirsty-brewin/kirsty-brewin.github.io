@@ -106,7 +106,6 @@ body {
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
   height:150px;
   width: 50%;
   text-align:left;
@@ -131,7 +130,7 @@ body {
     
 
 .child-img {
-  width:30%;
+  width:%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
@@ -147,13 +146,13 @@ margin-top: -10px;
 }
 
 .identity {
-margin-top:70px;
+margin-top:60px;
 margin-left: auto;
 margin-right: auto;
 }
 
 .webdev{
-margin-top: 380px;
+margin-top: 330px;
 
 }
 
@@ -255,12 +254,26 @@ padding-bottom: 5%;
 
 }
 
+.flowlist {
+font-family: Roboto;
+font-size: 20px;
+margin-top: -7%;
+margin-left: 400px;
 
+}
 
   
- 
+ .DOM {
+  margin-top: -2%;
+ }
 
+  .array {
+margin-top: 6%;
+  }
+
+  .arrandobs{
   
-
+    
+  }
 
   
