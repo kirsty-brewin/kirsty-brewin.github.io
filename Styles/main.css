@@ -1,23 +1,20 @@
-
- /* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) */
 #container {
-width: 90%;
-margin: 0 auto;
-border: 5px;
-flex-direction: row;
-justify-content: center;
-align-items: flex-start;
-
+  width: 90%;
+  margin: 0 auto;
+  border: 5px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
 }
 
- .kirsty-brewin {
+.kirsty-brewin {
   float: none;
   margin-top: 30px;
   text-align: center;
   font-family: Roboto;
   font-size: 40px;
-      }   
-
+}
 
 .navClass {
   display: inline-block;
@@ -28,107 +25,94 @@ align-items: flex-start;
   font-size: 25px;
   word-spacing: 10px;
   text-decoration: none;
-  
-        
-                 
-        }
+}
 .journey {
   float: none;
   font-family: Roboto;
   text-align: center;
-  margin-top: -30px ;
-      }       
-      
+  margin-top: -30px;
+}
+
 .codeimage {
-  width:50%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
   display: flex;
   height: auto;
-  }
+}
 
-   #spiders{
-    float: none;
-    margin-top: 30px;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 25px;
-    width:auto ;
+#spiders {
+  float: none;
+  margin-top: 30px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  width: auto;
+}
 
-    }
+.margin {
+  margin-top: 4%;
+}
 
-   .margin {
-margin-top: 4%;
+.padding {
+  margin-top: 5%;
+}
 
-   }
+.border {
+  margin-top: 5%;
+}
 
-   .padding {
-margin-top: 5%;
-
-   }
-
-  .border {
-    margin-top: 5%;
-  }
-   
 .coretitle {
   margin-top: 3em;
   font-family: Roboto;
   font-size: 40px;
   text-align: center;
-        
-      }
+}
 
 h1 {
- font-family: Roboto;
- text-align: center;
- font-size: 40px;
- margin-top: 100px;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
 }
 
 h3 {
-font-family: Roboto; 
-font-size: 30px;
-text-align: center;
-margin-top: 30px 
+  font-family: Roboto;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 body {
- background-color:#e9775d;
- margin-left: 20px;
+  background-color:darksalmon;
+  margin-left: 20px;
 }
 
-    
-  p {
+p {
   font-family: Roboto;
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  text-align:left;
+  text-align: left;
   overflow-wrap: break-word;
-
-  
-} 
-
+}
 
 .boxpics {
   background-color: white;
-      width:30%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 5px;
-      border-radius: 5%;
-      border: solid black ;
-      display: flex;
-      height: auto;
-      
-    }
-    
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  border-radius: 5%;
+  border: solid black;
+  display: flex;
+  height: auto;
+}
 
 .child-img {
-  width:20%;
+  width: 20%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
@@ -137,32 +121,29 @@ body {
 }
 
 .who {
-margin-left: auto;
-margin-right: auto;
-margin-top: -10px;
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
 }
 
 .identity {
-margin-top:60px;
-margin-left: auto;
-margin-right: auto;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.webdev{
-margin-top: 60px;
-
+.webdev {
+  margin-top: 60px;
 }
 
 .back {
   font-family: Roboto;
-  margin-left: 700px; 
-  margin-right:auto;
+  margin-left: 700px;
+  margin-right: auto;
   margin-top: 30px;
   font-size: 20px;
-  color:blueviolet; 
+  color: blueviolet;
   text-decoration: none;
-
 }
 
 .bloglinks {
@@ -170,65 +151,62 @@ margin-top: 60px;
   font-family: Roboto;
   font-size: 2vw;
   width: 70%;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  height:60px;
-  text-align:center;  
+  height: 60px;
+  text-align: center;
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 0.1%;
   border: solid black;
-  
-  }
+}
 
-  .learning1 {
-font-family: Roboto;
- font-size: 20px;
- margin-left: 550px;
- margin-top: -310px;
- height: 80px;
- max-width: 600px ;
- text-align: left;
- overflow-wrap: break-word;
-  }
+.learning1 {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-left: 550px;
+  margin-top: -310px;
+  height: 80px;
+  max-width: 600px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
 
 .careergoals {
-font-family: Roboto;
-font-size: 20px;
-margin-left: 550px;
-margin-top: -20px;
-height:150px;
-max-width: 600px;
-text-align:left;
-overflow-wrap: break-word;
-text-align: justify;
-padding-bottom: 5%;
+  font-family: Roboto;
+  font-size: 20px;
+  margin-left: 550px;
+  margin-top: -20px;
+  height: 150px;
+  max-width: 600px;
+  text-align: left;
+  overflow-wrap: break-word;
+  text-align: justify;
+  padding-bottom: 5%;
 }
 
 .limitations {
-font-family: Roboto;
-font-size: 20px;
-margin-left: 550px;
-margin-top: -20px;
-height:150px;
-max-width: 600px;
-text-align:left;
-overflow-wrap: break-word;
-text-align: justify;
-padding-bottom: 5%;
-
+  font-family: Roboto;
+  font-size: 20px;
+  margin-left: 550px;
+  margin-top: -20px;
+  height: 150px;
+  max-width: 600px;
+  text-align: left;
+  overflow-wrap: break-word;
+  text-align: justify;
+  padding-bottom: 5%;
 }
-
 
 .core {
   font-family: Roboto;
   font-size: 20px;
   margin-left: 550px;
   margin-top: -20px;
-  height:150px;
+  height: 150px;
   max-width: 600px;
-  text-align:left;
+  text-align: left;
   overflow-wrap: break-word;
   text-align: justify;
   padding-bottom: 5%;
@@ -239,13 +217,12 @@ padding-bottom: 5%;
   font-size: 20px;
   margin-left: 550px;
   margin-top: -20px;
-  height:150px;
+  height: 150px;
   max-width: 600px;
-  text-align:left;
+  text-align: left;
   overflow-wrap: break-word;
   text-align: justify;
   padding-bottom: 5%;
-
 }
 
 .expectations {
@@ -253,13 +230,12 @@ padding-bottom: 5%;
   font-size: 20px;
   margin-left: 550px;
   margin-top: -20px;
-  height:150px;
+  height: 150px;
   max-width: 600px;
-  text-align:left;
+  text-align: left;
   overflow-wrap: break-word;
   text-align: justify;
   padding-bottom: 5%;
-
 }
 
 .flowlist {
@@ -268,44 +244,63 @@ padding-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  text-align:left;
+  text-align: left;
   overflow-wrap: break-word;
 }
 
-  
- .DOM {
+.question-image {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  display: flex;
+  height: auto;
+}
+
+h2 {
+font-family: Roboto;
+font-size: 20px;
+font-style: italic;
+text-align: center;
+color:darkslategrey;
+padding-top: -1%;
+
+
+
+}
+
+
+.DOM {
   margin-top: 5%;
- }
+}
 
-  .array {
-   margin-top: 5%;
-  }
+.array {
+  margin-top: 5%;
+}
 
-  .arrandobs{
-  
-    
-  }
+.arrandobs {
+}
 
-  @media (min-width:1200px){
-    .bloglinks {
-      font-size: 2vw 
-    }
-  }
-
-  @media (max-width: 1199px){
-    .bloglinks {
-    font-size: 5vw
-    }
-  }
-
-@media (min-width:1200px){
-  .p {
-    font-size: 2vw
+@media (min-width: 1200px) {
+  .bloglinks {
+    font-size: 2vw;
   }
 }
 
-@media (max-width:1199px){
+@media (max-width: 1199px) {
+  .bloglinks {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 1200px) {
   .p {
-    font-size:2vw
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 1199px) {
+  .p {
+    font-size: 2vw;
   }
 }
