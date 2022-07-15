@@ -24,7 +24,12 @@
   font-family: Roboto;
   font-size: 25px;
   word-spacing: 10px;
-  text-decoration: none;
+  padding-left: 65%;
+  
+ 
+ 
+ 
+  
 }
 .journey {
   float: none;
@@ -150,7 +155,7 @@ p {
   color: black;
   font-family: Roboto;
   font-size: 2vw;
-  width: 70%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -160,6 +165,7 @@ p {
   padding-right: 1%;
   padding-top: 0.1%;
   border: solid black;
+  text-decoration: none;
 }
 
 .learning1 {
