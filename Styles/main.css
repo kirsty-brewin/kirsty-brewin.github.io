@@ -284,7 +284,25 @@ padding-top: -1%;
   margin-top: 5%;
 }
 
-.arrandobs {
+.brainpic {
+width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  display: flex;
+  height: auto;
+
+}
+
+.growthpic {
+width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  display: flex;
+  height: auto;
+
+}
 }
 
 @media (min-width: 1200px) {
